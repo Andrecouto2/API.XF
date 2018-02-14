@@ -84,7 +84,7 @@ namespace API.Atividade._06.Controllers
             {
                 db.Atividades.Add(atividade);
                 db.SaveChanges();
-                return CreatedAtRoute("DefaultApi", new { id = atividade.Id }, atividade);
+                return Ok(atividade);
             }
             else
             {

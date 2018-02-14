@@ -224,6 +224,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\xffiap - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\xffiap - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\XFiap - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\XFiap - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
