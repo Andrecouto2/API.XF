@@ -13,7 +13,7 @@ namespace API.Atividade._06
 
             // Rotas da API da Web
             config.MapHttpAttributeRoutes();
-
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
